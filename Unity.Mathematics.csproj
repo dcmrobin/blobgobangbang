@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{b2e32780-4011-c463-d39f-fee104a13358}</ProjectGuid>
+    <ProjectGuid>{cb1734d4-7521-d3ea-1636-416b10add994}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.TextMeshPro</AssemblyName>
+    <AssemblyName>Unity.Mathematics</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -36,65 +36,91 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextProcessingStack.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteGlyph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\ITextPreProcessor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMPro_MeshUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_CharacterInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_StyleSheet.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAssetUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMPro_UGUI_Private.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Dropdown.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Text.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SelectionCaret.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteAnimator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\FastAction.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAssetCommon.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TextMeshPro.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Sprite.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_RichTextTagsCommon.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_PackageResourceImporter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ColorGradient.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Settings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMPro_EventManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SubMeshUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_UpdateManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Character.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextElement_Legacy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\MaterialReferenceManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMPro_ExtensionMethods.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SpriteCharacter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_MaterialManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Style.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TextMeshProUGUI.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ListPool.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_EditorResourceManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextElement.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_CoroutineTween.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_MeshInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ObjectPool.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_UpdateRegistery.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ResourcesManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SubMesh.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputValidator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Asset.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_LineInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TextContainer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Compatibility.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_TextParsingUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_DefaultControls.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMPro_Private.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ShaderUtilities.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ScrollbarEventHandler.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontFeatureTable.cs" />
-     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontFeaturesCommon.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\half3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float4x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint4x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int4x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int2x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int3x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\quaternion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double4x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint2x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\noise4D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint3x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double3x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\math.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool3x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int2x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool4x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\classicnoise3D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\cellular2x2x2.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\psrdnoise2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool4x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool3x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int4x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint4x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double3x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\cellular2x2.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double2x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\common.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\half2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool3x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint4x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float4x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double4x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\PropertyAttributes.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\noise3D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint3x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool2x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\matrix.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\half4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint2x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\rigid_transform.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\classicnoise4D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double4x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int4x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double2x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int3x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\cellular2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\classicnoise2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float3x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\cellular3D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\noise3Dgrad.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool4x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double2x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint3x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int2x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool2x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double3x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\matrix.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float4x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\Noise\noise2D.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\bool2x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float3x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float2x4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\double4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\math_unity_conversion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float2x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\int3x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float2x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\half.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\random.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint2x2.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float3x3.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\uint4.gen.cs" />
+     <Compile Include="Library\PackageCache\com.unity.mathematics@1.1.0\Unity.Mathematics\float2.gen.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
