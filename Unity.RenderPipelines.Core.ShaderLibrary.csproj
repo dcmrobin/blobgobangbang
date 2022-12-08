@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{290cccf8-6074-4548-920d-ce0cd155f3dc}</ProjectGuid>
+    <ProjectGuid>{71411b1f-19ae-3a74-362e-c9f97d5616cf}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>UnityEngine.TestRunner</AssemblyName>
+    <AssemblyName>Unity.RenderPipelines.Core.ShaderLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -36,115 +36,51 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\AllocatingGCMemoryConstraint.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\ConstraintsExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\InvalidSignatureException.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\Is.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\LogAssert.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\LogScope\ILogScope.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\LogScope\LogEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\LogScope\LogMatch.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\LogScope\LogScope.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\UnexpectedLogMessageException.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\UnhandledLogMessageException.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Assertions\UnityTestTimeoutException.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\ActionDelegator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\ConditionalIgnoreAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestMustExpectAllLogsAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityCombinatorialStrategy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityPlatformAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnitySetUpAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityTearDownAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Attributes\UnityTestAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\BaseDelegator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\BeforeAfterTestCommandState.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableApplyChangesToContextCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableRepeatedTestCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableRetryTestCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableSetUpTearDownCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableTestMethodCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\EnumerableTestState.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\ImmediateEnumerableCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\OuterUnityTestActionCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\SetUpTearDownCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\TestActionCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Commands\TestCommandPcHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\ConstructDelegator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Filters\AssemblyNameFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Filters\CategoryFilterExtended.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\IAsyncTestAssemblyBuilder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\IStateSerializer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\CompositeWorkItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\CoroutineTestWorkItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\DefaultTestWorkItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\FailCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\IEnumerableTestMethodCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\PlaymodeWorkItemFactory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\RestoreTestContextAfterDomainReload.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\TestCommandBuilder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityLogCheckDelegatingCommand.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestAssemblyRunner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityTestExecutionContext.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItem.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\UnityWorkItemDataHolder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\Runner\WorkItemFactory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\TestExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\TestResultExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\NUnitExtensions\UnityTestAssemblyBuilder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\PlayModeRunnerCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\PlayerQuitHandler.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\RemoteTestResultSender.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRenderer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Callbacks\TestResultRendererCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\ITestRunnerListener.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\Messages\IEditModeTestYieldInstruction.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\PlaymodeTestsController.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\PlaymodeTestsControllerSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\IRemoteTestResultDataFactory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\PlayerConnectionMessageIds.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultDataFactory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RemoteHelpers\RemoteTestResultDataWithTestData.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\RuntimeTestRunnerFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\SynchronousFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\TestEnumeratorWrapper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\TestListenerWrapper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\TestRunner\TestPlatform.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyLoadProxy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\AssemblyWrapper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyLoadProxy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\IAssemblyWrapper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\IScriptingRuntimeProxy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\ITestAssemblyProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\PlayerTestAssemblyProvider.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AssemblyProvider\ScriptingRuntimeProxy.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\AttributeHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\ColorEqualityComparer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\CoroutineRunner.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\FloatEqualityComparer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\IOuterUnityTestAction.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\IPostBuildCleanup.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\IPrebuildSceneSetup.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\ITestRunCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\MonoBehaviourTest\IMonoBehaviourTest.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\MonoBehaviourTest\MonoBehaviourTest.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\PostBuildCleanupAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\PrebuildSceneSetupAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\QuaternionEqualityComparer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\StacktraceFilter.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\TestRunCallbackAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\TestRunCallbackListener.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Utils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector2ComparerWithEqualsOperator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector2EqualityComparer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector3ComparerWithEqualsOperator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector3EqualityComparer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector4ComparerWithEqualsOperator.cs" />
-     <Compile Include="Library\PackageCache\com.unity.test-framework@1.1.22\UnityEngine.TestRunner\Utils\Vector4EqualityComparer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\DummyShaderLibrary.cs" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\Validate.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Debug.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\SampleUVMappingInternal.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Random.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Refraction.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\UnityInstancing.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\SDF2D.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\EntityLighting.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Color.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Macros.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\Fibonacci.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\CommonLighting.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\SampleUVMapping.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\GLES3.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\CommonMaterial.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Filtering.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\Metal.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\Sampling.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\Vulkan.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\PhysicalCamera.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Common.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\ACES.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\SpaceFillingCurves.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\VolumeRendering.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Version.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\NormalSurfaceGradient.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\SpaceTransforms.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\GLCore.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\BC6H.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\GLES2.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\CommonShadow.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\Switch.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\SampleUVMappingNormalInternal.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\PerPixelDisplacement.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\AreaLighting.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Sampling\Hammersley.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\CommonDeprecated.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\API\D3D11.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Packing.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Tessellation.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\BSDF.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\ImageBasedLighting.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\GeometricTools.hlsl" />
+     <None Include="Library\PackageCache\com.unity.render-pipelines.core@7.5.3\ShaderLibrary\Shadow\ShadowSamplingTent.hlsl" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -340,8 +276,23 @@
     <Reference Include="UnityEditor.WebGL.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-        <HintPath>D:/unity projects/blobgobangbang/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+    <Reference Include="Photon3Unity3D">
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Network Stuff/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Network Stuff/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Other/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Other/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+        <HintPath>D:/unity projects/blobgobangbang/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>D:/unity projects/blobgobangbang/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -688,6 +639,16 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{aac5ffcd-519a-e258-cbbe-ae480e992e24}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

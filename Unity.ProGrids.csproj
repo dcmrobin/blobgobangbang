@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3eb0d147-46e1-044d-16f6-fadb660f0cdd}</ProjectGuid>
+    <ProjectGuid>{1e006af3-cd77-512c-7374-9713b1fc1217}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProGrids</AssemblyName>
@@ -234,19 +234,22 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-        <HintPath>C:/Users/matsk/Documents/unity projects/blobgobangbang (1)/Assets/Network Stuff/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Network Stuff/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-        <HintPath>C:/Users/matsk/Documents/unity projects/blobgobangbang (1)/Assets/Network Stuff/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Network Stuff/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:/Users/matsk/Documents/unity projects/blobgobangbang (1)/Assets/Other/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Other/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PlayMaker">
-        <HintPath>C:/Users/matsk/Documents/unity projects/blobgobangbang (1)/Assets/Other/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+        <HintPath>D:/unity projects/blobgobangbang/Assets/Other/Plugins/PlayMaker/PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-        <HintPath>C:/Users/matsk/Documents/unity projects/blobgobangbang (1)/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+        <HintPath>D:/unity projects/blobgobangbang/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>D:/unity projects/blobgobangbang/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -596,11 +599,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{b28be9aa-f1fe-f5d7-596c-b40d33beb514}</Project>
+      <Project>{aac5ffcd-519a-e258-cbbe-ae480e992e24}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{80974fe4-1593-6b2a-93c3-b5d0aa5bc850}</Project>
+      <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

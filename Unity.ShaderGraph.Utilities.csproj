@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f007358d-cc13-f6f1-1c08-614837341ce1}</ProjectGuid>
+    <ProjectGuid>{71f02a4c-e388-abb9-5d85-e14fedf1b095}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Unity.ShaderGraph.Utilities</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -36,18 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\FPS\Scripts\Editor\MiniProfiler.cs" />
-     <Compile Include="Assets\FPS\Scripts\Editor\PrefabReplacerEditor.cs" />
-     <Compile Include="Assets\FPS\Scripts\Editor\ShaderBuildStripping.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
-     <Compile Include="Assets\Other\Plugins\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-     <Compile Include="Assets\Other\Plugins\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
-     <Compile Include="Assets\Other\Plugins\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
-     <None Include="Assets\Other\Plugins\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.5.3\Editor\Utilities\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.5.3\Editor\Utilities\EnumInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.5.3\Editor\Utilities\StringBuilderExtensions.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -620,9 +611,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{e31f8acc-76f9-675c-7477-c033d88be8bb}</Project>
-      <Name>Assembly-CSharp</Name>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{aac5ffcd-519a-e258-cbbe-ae480e992e24}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{c2e699b7-7132-0054-b9a6-a8423c57faee}</Project>
@@ -631,182 +626,6 @@
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{290cccf8-6074-4548-920d-ce0cd155f3dc}</Project>
       <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{23b00aec-1985-c916-d18d-4f0d8e752ef3}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{a99e0df0-18b7-4d5f-8ace-749cae243e07}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{6d215229-0358-2dd3-bfdf-e150023bbe39}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{c963783b-277f-9773-75da-0332767b0ac1}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{173836f7-e85e-3f09-8527-a8d6666f8e7a}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{b8d16d39-4781-e29f-aba8-6ff6eb3d00ce}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{1e006af3-cd77-512c-7374-9713b1fc1217}</Project>
-      <Name>Unity.ProGrids</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{5dedab94-51b6-bffe-fbd5-fdd56722c963}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{4ebcb69a-2658-6b84-2e84-b6949d44feec}</Project>
-      <Name>Unity.ProBuilder</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{397a96e3-aea2-6675-56e5-79091748601e}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{92460a8f-296f-c110-bcc8-814c229bb9d5}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Connect.Share.Editor.csproj">
-      <Project>{51b5eac5-e6d4-bb5b-78d1-881a4fcbd53c}</Project>
-      <Name>Unity.Connect.Share.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InteractiveTutorials.Core.csproj">
-      <Project>{725dd20c-b652-ec95-b8d7-d2597a09c30a}</Project>
-      <Name>Unity.InteractiveTutorials.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{b2c24dac-f1c6-8e60-239f-a1068d82d054}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridgeDev.001.csproj">
-      <Project>{f39a41c6-d0bf-7202-5cf6-4eb3b0ca030f}</Project>
-      <Name>Unity.InternalAPIEditorBridgeDev.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{b5ef552f-3089-ab4f-431d-d2aa83dad083}</Project>
-      <Name>Unity.ProBuilder.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{453d2db9-4613-b326-9e39-6d1adc81ddc2}</Project>
-      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{d242428a-33c3-f428-76e0-644ec4dfb609}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
-      <Project>{a92a3fda-322b-3089-1b39-7fcec36f58aa}</Project>
-      <Name>Unity.ProGrids.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{473cb2d6-aec0-67c0-0c56-24acd5db7d21}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{ffdff60a-942f-e312-1723-01a6796bd2a2}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{d10507f7-487b-5b60-1712-e0c487cf3b37}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{32b5ee29-dd2f-0253-58f4-3187d355f83c}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{f3bb6207-8a41-03bd-81db-c0dbf72122ae}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{fef261b0-b631-2dac-96cd-d07addf9c718}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{756d2a09-2655-44a0-183c-0c741ef893b7}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{d6fd3068-dd11-0be4-865d-fe5d55e505e1}</Project>
-      <Name>PhotonWebSocket</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{ae5e86c4-506b-22e8-510c-c44810fdd0c5}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{61743887-db3a-1cf8-6131-1dfdb705bbd9}</Project>
-      <Name>PhotonRealtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{1448aae2-8094-a80a-d79b-bdb20c1ef638}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InteractiveTutorials.Core.Scripts.csproj">
-      <Project>{81b45618-c751-efc3-b33d-3db8bb7e79cc}</Project>
-      <Name>Unity.InteractiveTutorials.Core.Scripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{ac18efe9-ec77-016c-c13c-af3c9c0b40ee}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{3ed6e9c1-2d6c-134f-4047-1524d33048df}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{886bc700-ab40-5c50-5896-f06b038da569}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.InteractiveTutorialsFramework.csproj">
-      <Project>{a4c8654e-9681-f4ab-752c-32c691a4747b}</Project>
-      <Name>UnityEditor.InteractiveTutorialsFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
-      <Project>{b90ba5d9-4424-e797-47db-60af276c8688}</Project>
-      <Name>Unity.ProBuilder.AddOns.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{f3cb1d32-2521-02cc-8f8d-992b179da1f6}</Project>
-      <Name>PhotonChat</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{87cf74da-31e1-b51f-b4f6-930a6b58d05d}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{71411b1f-19ae-3a74-362e-c9f97d5616cf}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{b2e32780-4011-c463-d39f-fee104a13358}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{414ef92e-d90d-88ee-d9af-3d97e85eff64}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{c61d2ec3-55db-4ac5-ef01-79361dcbfd0c}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{aac5ffcd-519a-e258-cbbe-ae480e992e24}</Project>
-      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
