@@ -270,7 +270,8 @@ public class PlayerCharacterController : MonoBehaviour
             //if(!PV.IsMine)
             //{
                 // rotate the transform with the input speed around its local Y axis
-                transform.Rotate(new Vector3(0f, (m_InputHandler.GetLookInputsHorizontal() * rotationSpeed * RotationMultiplier), 0f), Space.Self);
+                //transform.Rotate(new Vector3(0f, (m_InputHandler.GetLookInputsHorizontal() * rotationSpeed * RotationMultiplier), 0f), Space.Self);
+                transform.Rotate(0, Input.GetAxis("Mouse X") * RotationMultiplier * 2, 0);
             //}
         }
 
