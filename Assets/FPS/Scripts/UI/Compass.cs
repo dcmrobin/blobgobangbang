@@ -19,7 +19,7 @@ public class Compass : MonoBehaviour
     float m_WidthMultiplier;
     float m_heightOffset;
 
-    void Awake()
+    void Start()
     {
         PlayerCharacterController playerCharacterController = FindObjectOfType<PlayerCharacterController>();
         DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, Compass>(playerCharacterController, this);
