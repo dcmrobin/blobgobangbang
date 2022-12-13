@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Runtime\InternalBridge\AssemblyInfo.cs.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Runtime\InternalBridge\GameObjectProxy.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Runtime\InternalBridge\AssemblyInfo.cs.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Runtime\InternalBridge\GameObjectProxy.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\Editor\2022.1.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -296,8 +296,11 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:\Unity\Editor\2022.1.23f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\unity projects\blobgobangbang\Assets\Other\Plugins\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
         <HintPath>D:\unity projects\blobgobangbang\Assets\Network Stuff\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
@@ -314,14 +317,23 @@
     <Reference Include="PlayMaker">
         <HintPath>D:\unity projects\blobgobangbang\Assets\Other\Plugins\PlayMaker\PlayMaker.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -711,13 +723,13 @@
       <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{290cccf8-6074-4548-920d-ce0cd155f3dc}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{c2e699b7-7132-0054-b9a6-a8423c57faee}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{290cccf8-6074-4548-920d-ce0cd155f3dc}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

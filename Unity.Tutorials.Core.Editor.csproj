@@ -36,104 +36,104 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\SerializableEventBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\MaterialPropertyModifiedCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ProjectMode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\Tutorial.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\SceneViewCameraSettingsDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\TutorialContainer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\Criterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\Editor\SerializableCallbackDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\BuildStartedCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\UnityEventDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Masking\GuiControlSelector.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\CommonTutorialCallbacks.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\ComponentAddedCriterionDrawers.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\SearchablePopup.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Localization\POFileUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialWelcomePageEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TutorialStyles.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editor Windows\TutorialWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\MenuItems.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TutorialWelcomePage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\TypedCriterionCollectionDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\SceneViewCameraSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\ComponentAddedCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\MaskingSettingsDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UIElementsUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\InstantiatePrefabCriterionDrawers.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\GuiControlSelectorDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\TutorialEditorUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Masking\UnmaskedView.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\SerializedType.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TutorialParagraph.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\TutorialParagraphDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\EditorWindowUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\PackageInstalledCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\SerializableCallbackBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\ActiveToolCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\UnmaskedViewDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\PrefabInstanceCountCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\LocalizableStringDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TypedCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Shims\PrefabUtilityShim.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\CollectionWrapper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\SerializedTypeDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\GenesisHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialProjectSettingsEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Attributes\SerializedTypeFilterAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Masking\MaskingManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialStylesEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editor Windows\TutorialModalWindow.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\SceneObjectReferencePropertyDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TutorialProjectSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\PlayModeStateCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\AutoCompletion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\InvokableCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\SceneObjectReference.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\SerializableEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\Attributes\TargetConstraintAttribute.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\ObjectReferencePropertyDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\EditorWindowTypeDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Localization\Localization.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\TutorialManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Settings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Models\TutorialPage.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\SerializableCallback.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\CollectionWrapperDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Masking\MaskingSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialContainerEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editor Windows\VideoPlaybackManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\SceneAddedToBuildCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\FrameworkSettings.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\ArbitraryCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\FlushChildrenDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\FutureObjectReference.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\StringExtensions.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\PropertyModificationCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\InvokableEvent.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\InstantiatePrefabCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\SceneViewCameraMovedCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\AnalyticsHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ObjectReference.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\RichTextParser.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\TypedCriterionDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Localization\LocalizableString.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Property Drawers\TutorialParagraphCollectionDrawer.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Editors\TutorialPageEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\EditorWindowCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UserStartupCode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\RequiredSelectionCriterion.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\InvokableCallbackBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\ThirdParty\SerializableCallback\InvokableEventBase.cs" />
-     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\Criteria\FrameSelectedCriterion.cs" />
-     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UI\Main_Light.uss" />
-     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UI\WelcomeDialog.uxml" />
-     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UI\TutorialContents.uxml" />
-     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UI\Main_Dark.uss" />
-     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.2\Editor\UI\Main.uxml" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\SerializableEventBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\MaterialPropertyModifiedCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ProjectMode.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\Tutorial.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\SceneViewCameraSettingsDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\TutorialContainer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\Criterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\Editor\SerializableCallbackDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\BuildStartedCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\UnityEventDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Masking\GuiControlSelector.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\CommonTutorialCallbacks.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\ComponentAddedCriterionDrawers.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\SearchablePopup.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Localization\POFileUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialWelcomePageEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TutorialStyles.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editor Windows\TutorialWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\MenuItems.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TutorialWelcomePage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\TypedCriterionCollectionDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\SceneViewCameraSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\ComponentAddedCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\MaskingSettingsDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UIElementsUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\InstantiatePrefabCriterionDrawers.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\GuiControlSelectorDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\TutorialEditorUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Masking\UnmaskedView.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\SerializedType.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TutorialParagraph.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\TutorialParagraphDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\EditorWindowUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\PackageInstalledCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\SerializableCallbackBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\ActiveToolCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\UnmaskedViewDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\PrefabInstanceCountCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\LocalizableStringDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TypedCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Shims\PrefabUtilityShim.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\CollectionWrapper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\SerializedTypeDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\GenesisHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialProjectSettingsEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Attributes\SerializedTypeFilterAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Masking\MaskingManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialStylesEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editor Windows\TutorialModalWindow.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\SceneObjectReferencePropertyDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TutorialProjectSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\PlayModeStateCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\AutoCompletion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\InvokableCallback.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\SceneObjectReference.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\SerializableEvent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\Attributes\TargetConstraintAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\ObjectReferencePropertyDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\EditorWindowTypeDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Localization\Localization.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\TutorialManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Settings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\SerializableCallback.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Models\TutorialPage.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\CollectionWrapperDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Masking\MaskingSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialContainerEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editor Windows\VideoPlaybackManager.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\SceneAddedToBuildCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\FrameworkSettings.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\ArbitraryCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\FlushChildrenDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\FutureObjectReference.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\StringExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\PropertyModificationCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\InvokableEvent.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\InstantiatePrefabCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\SceneViewCameraMovedCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\AnalyticsHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ObjectReference.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\RichTextParser.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\TypedCriterionDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Localization\LocalizableString.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Property Drawers\TutorialParagraphCollectionDrawer.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Editors\TutorialPageEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\EditorWindowCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UserStartupCode.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\RequiredSelectionCriterion.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\InvokableCallbackBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\ThirdParty\SerializableCallback\InvokableEventBase.cs" />
+     <Compile Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\Criteria\FrameSelectedCriterion.cs" />
+     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UI\Main_Light.uss" />
+     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UI\WelcomeDialog.uxml" />
+     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UI\TutorialContents.uxml" />
+     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UI\Main_Dark.uss" />
+     <None Include="Library\PackageCache\com.unity.learn.iet-framework@2.2.3\Editor\UI\Main.uxml" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\Editor\2022.1.23f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -392,8 +392,11 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:\Unity\Editor\2022.1.23f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\unity projects\blobgobangbang\Assets\Other\Plugins\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
         <HintPath>D:\unity projects\blobgobangbang\Assets\Network Stuff\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
@@ -410,14 +413,23 @@
     <Reference Include="PlayMaker">
         <HintPath>D:\unity projects\blobgobangbang\Assets\Other\Plugins\PlayMaker\PlayMaker.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:\unity projects\blobgobangbang\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -827,13 +839,13 @@
       <Project>{c88b5ed6-c9f1-7e61-5a54-400f2fe9dccd}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{290cccf8-6074-4548-920d-ce0cd155f3dc}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{c2e699b7-7132-0054-b9a6-a8423c57faee}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{290cccf8-6074-4548-920d-ce0cd155f3dc}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
