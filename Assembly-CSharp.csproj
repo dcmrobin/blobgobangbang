@@ -121,7 +121,6 @@
      <Compile Include="Assets\FPS\Scripts\PlayerWeaponsManager.cs" />
      <Compile Include="Assets\Other\Plugins\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
      <Compile Include="Assets\FPS\Scripts\ObjectiveReachPoint.cs" />
-     <Compile Include="Assets\AddOns\MgFPS_Enemy_Boss\Scripts\RailgunEffectsHandler.cs" />
      <Compile Include="Assets\FPS\Scripts\ObjectivePickupItem.cs" />
      <Compile Include="Assets\FPS\Scripts\ChargedWeaponEffectsHandler.cs" />
      <Compile Include="Assets\Other\Plugins\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
@@ -198,7 +197,6 @@
      <Compile Include="Assets\FPS\Scripts\TemplateObject.cs" />
      <Compile Include="Assets\Other\Plugins\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\FPS\Scripts\GameConstants.cs" />
-     <Compile Include="Assets\AddOns\MgFPS_Enemy_Boss\Scripts\TVDetectionModule.cs" />
      <Compile Include="Assets\Other\Plugins\Standard Assets\2D\Scripts\Restarter.cs" />
      <Compile Include="Assets\FPS\Scripts\PrefabReplacerOnInstance.cs" />
      <Compile Include="Assets\Network Stuff\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
@@ -293,7 +291,6 @@
      <None Include="Assets\Network Stuff\Photon\PhotonUnityNetworking\link.xml" />
      <None Include="Assets\Other\Plugins\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Other\Plugins\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\AddOns\MgFPS_Enemy_Boss\Readme.txt" />
      <None Include="Assets\Other\Plugins\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Other\Plugins\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\Other\Plugins\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
