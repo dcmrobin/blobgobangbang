@@ -700,7 +700,7 @@ MonoBehaviour:
     type: 3}
   delayBetweenShots: 0.06
   bulletSpreadAngle: 0
-  bulletsPerShot: 50
+  bulletsPerShot: 20
   recoilForce: 1
   aimZoomRatio: 1
   aimOffset: {x: 0, y: 0, z: 0}
